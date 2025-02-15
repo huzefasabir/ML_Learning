@@ -5,7 +5,7 @@ import seaborn as sb
 
 # This code snippet is reading a CSV file named "loan.csv" located at "E:\Study\Jupyter Noteboook\" into a pandas DataFrame called `dataset`. 
 # It then displays the first few rows of the dataset using `dataset.head()`. Following that, it checks for any missing values in the dataset using `dataset.isnull().sum()`.
-dataset=pd.DataFrame(pd.read_csv("E:\\Study\\Jupyter Noteboook\\loan.csv"))
+dataset=pd.DataFrame(pd.read_csv("loan.csv"))
 #dataset.head()
 
 #dataset.isnull().sum()6
